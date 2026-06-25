@@ -1,0 +1,39 @@
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local environment
+.env
+.env.*
+!.env.example
+
+# Dependencies and build outputs
+node_modules/
+dist/
+build/
+coverage/
+.cache/
+.parcel-cache/
+.vite/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local AI workspace metadata
+.agents/
+.codex/
+
+# Downloaded installers and archives
+*.msi
+*.exe
+*.zip
+*.7z
+*.rar
+SHASUMS256.txt
